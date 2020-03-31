@@ -13,7 +13,9 @@ describe('using map', () => {
       // Note: .every returns true if every value in the array passes the condition, in this example it is checking that each
       // value in the array is an object
       const objects = arrayOfObjects.every(obj => typeof obj === 'object');
+      
       expect(objects).toBe(true);
+      expect(arrayOfObjects.length).toBe(4);
     });
 
     it('adds `value` and `index` properties to the object created for each index value in the array', () => {
