@@ -16,7 +16,7 @@ TestFirst JavaScript is a multi-part series that provides practice to intermedia
 
 ### Setup Test First
 
-- **[Fork the repository to your personal GitHub Account](https://github.com/fullstackacademy/TestFirst-Part-1/)**
+- **[Fork the repository to your personal GitHub Account](https://github.com/fullstackacademy/TestFirst-Part-2/)**
 - Clone the repository to your local machine
 - Run `testem` with the `npx testem` command.
 
@@ -29,7 +29,7 @@ In your TestFirst directory run the command:
 $ npx testem
 ```
 
-After `testem` initiates, connect to `localhost:7357` in your web browser and your test specs will load.
+After `testem` initiates, connect to `http://localhost:7357` in your web browser and your test specs will load.
 
 <hr>
 <br>
