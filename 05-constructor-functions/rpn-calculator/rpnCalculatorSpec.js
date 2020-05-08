@@ -8,7 +8,8 @@ describe('Calculator using reverse polish notation', () => {
 
   beforeEach(() => {
     /*
-      USE ES2015 CLASS SYNTAX
+      How is the RPNCalculator function invoked? Is this a factory function or a ...?
+      is the `new` operator used (wink wink)?
     */
 
     rpnCalculatorInstance = new RPNCalculator();
@@ -118,7 +119,6 @@ describe('Calculator using reverse polish notation', () => {
     expect(typeof RPNCalculator.prototype.divide).toBe('function');
     expect(typeof RPNCalculator.prototype.times).toBe('function');
     expect(typeof RPNCalculator.prototype.value).toBe('function');
-    expect(typeof RPNCalculator.prototype.times).toBe('function');
   });
 
   /* 
@@ -127,7 +127,7 @@ describe('Calculator using reverse polish notation', () => {
     for `instanceof`: https://mzl.la/1dqYtqW 
   */
 
-  it('the rpnCalculatorInstance object should be an instance of the RPNCalculator Constructor', function () {
+  it('the rpnCalculatorInstance object should be an instance of the RPNCalculator Constructor', function() {
     expect(rpnCalculatorInstance instanceof RPNCalculator).toBe(true);
   });
 });
