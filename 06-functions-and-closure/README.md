@@ -8,3 +8,4 @@ As some of the previous TestSpecs demonstrated, Functions are just Objects.  The
 - Closure
 - [arguments](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
 - ...and more!
+
