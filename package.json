@@ -21,6 +21,6 @@
   "homepage": "https://github.com/FullstackAcademy/FullstackTestFirst-Part2#readme",
   "dependencies": {},
   "devDependencies": {
-    "testem": "^1.18.5"
+    "testem": "^3.9.0"
   }
 }
